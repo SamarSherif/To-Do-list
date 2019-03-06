@@ -1,0 +1,39 @@
+.list{
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+}
+h3{
+    background: #599bd6;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+
+}
+.add{
+    background-color: inherit;
+    border: 0;
+    color: inherit;
+    float: right;
+    font-size: 22px;
+}
+.btn:focus,.btn:hover{
+    box-shadow: none;
+    color:white
+}
+.list-group-item:first-child{
+    border-radius: 0px;
+}
+
+
+
+li span{
+    float: right;
+    color: #b70303;
+    cursor: pointer;
+    width: 20px;
+    text-align: center;
+}
