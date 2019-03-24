@@ -1,9 +1,16 @@
+
 .list{
     top: 50%;
     position: absolute;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 400px;
+    max-height: 100%;
+    /* margin: 100px 0; */
+}
+ul{
+    overflow-y: scroll;
+    max-height: 500px;
 }
 h3{
     background: #599bd6;
@@ -37,3 +44,4 @@ li span{
     width: 20px;
     text-align: center;
 }
+
